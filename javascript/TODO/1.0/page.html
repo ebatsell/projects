@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	<script type "text/javascript" src="main.js"> </script>
+    <title> TODO List </title>
+</head>
+<!-- Trying to build a simple TODO list with the ability to add and remove an item -->
+
+<body>
+	<div id="header"> 
+		<h3 style="text-align: center"> Simple To-Do List Using JS </h3>
+	</div>
+
+	<div id = "content">
+
+	<br>
+	
+	<input id="add">
+	<button type="button" onclick="addItem(document.getElementById('add').value)"> Add Item </button>
+
+	<br>
+
+	<input id="delete">
+	<button type="button" onclick="removeItem(document.getElementById('delete').value)"> Remove Item # </button>
+
+	<br>
+	
+	<button type="button" onclick="displayList()"> Display list to console </button>
+
+	<br>
+
+	</div>
+
+
+	<div id="footer"> 
+		<p style="padding-top: 20px"> Copyright Evan Batsell, 2016 </p>
+	</div>
+</body>
+
+
+</html>
