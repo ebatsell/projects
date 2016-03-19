@@ -41,4 +41,11 @@ table {
 	margin-left: 	
 }
 
+img {
+	height: 123px; 
+	width:100px;
+	position: relative;
+	left: 200px;
+	top: 0px;
+}
 /* css comment example */
